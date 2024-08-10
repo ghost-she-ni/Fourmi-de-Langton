@@ -57,6 +57,7 @@ export SECRET_KEY="votre_cle_secrete"
 ### 1. Lancer le Serveur
 ```bash
 uvicorn server:app --host 0.0.0.0 --port 8000 --ssl-keyfile "./key.pem" --ssl-certfile "./cert.pem"
+or uvicorn server:app --host 0.0.0.0 --port 8000 if you don't have ./key.pem and ./cert.pem files
 
 ### 2. Lancer le Client
 ```bash
