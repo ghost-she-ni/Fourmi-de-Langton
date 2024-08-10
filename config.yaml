@@ -1,0 +1,5 @@
+largeur: 30          # Largeur de la grille en nombre de cellules
+hauteur: 30          # Hauteur de la grille en nombre de cellules
+taille_cellule: 20   # Taille de chaque cellule en pixels
+etapes: 10000        # Nombre d'étapes de la simulation
+nombre_de_fourmis: 5

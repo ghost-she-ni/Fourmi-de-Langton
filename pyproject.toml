@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "fourmi-de-langton"
+version = "0.1.0"
+description = ""
+authors = ["SILINOU NICOLAS <silinou@et.esiea.fr>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.111.0"
+uvicorn = "^0.30.1"
+pygame = "^2.5.2"
+requests = "^2.32.3"
+pyyaml = "^6.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
